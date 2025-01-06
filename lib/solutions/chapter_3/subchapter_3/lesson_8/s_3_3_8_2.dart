@@ -1,7 +1,34 @@
 import 'package:flutter/material.dart';
 
 bool isPrime(int input) {
-  // Lösung hier einfügen
+  if (input <= 0 || input == 1) {
+    return false;
+  } else if (input == 2) {
+    return true;
+  } else if (input > 2 && input.isOdd) {
+    //
+  } else {
+    return false;
+  }
+  // if (input > 1) {
+  //   if (input == 2) {
+  //     return true;
+  //   } else {
+  //     if (input.isOdd) {
+  //       for (int i = 3; i <= input; i++) {
+  //         if (input ~/ i == 1 && input == i) {
+  //           return true;
+  //         } else {
+  //           return false;
+  //         }
+  //       }
+  //     } else {
+  //       return false;
+  //     }
+  //   }
+  // } else {
+  //   return false;
+  // }
   throw UnimplementedError();
 }
 
